@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+ body{
+    margin:0;
+    height: 100%;
+} 
+
+/* .vport{
+    height: 100vh;
+} */
+.box{
+    /* position: relative; */
+    /* display: flex; */
+    /* width:100%; */
+    /* padding:100px; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* height: 100vh; */
+    /* color:black ; */
+    font-family: 'Nunito',  sans-serif;
+    /* font-size: 50px; */
+}
+
+.gradient{
+    background: linear-gradient(50deg,#2CEEA8,#2CEEA8,#2CEEA8, #2CEEA8,#2CEEA8,#0fbd7d,#0da56d) ;
+    animation: movinggradient 5s  ease infinite ;
+    background-size:200%;
+     height: 100vh;
+}
+
+@keyframes movinggradient{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+.topnav{
+
+    display:grid;
+    grid-template-columns: 2fr  1fr;
+
+     /* width: 85%; */
+    /* position: absolute; */
+    /* top: 0;
+    left: 0;
+   
+    /* padding: 20px 100px; */ 
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center;   flex: 3; */
+}
+
+
+@media only screen and (max-width: 972px) {
+    .gradient{
+      height: 100%;
+    }
+    
+}
+
+ .toplog{
+    padding-left: 7%;
+    /* flex: 4; */
+    /* position: relative; */
+    /* max-width: 80px; */
+}
+
+ .toplef{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    /* flex: 8; */
+    /* position: relative; */
+    /* max-width: 80px; */
+}
+
+.topnav .logo{
+    /* padding: 10px; */
+    /* position: relative; */
+    /* max-width: 80px; */
+}
+.topbar ul{
+    /* position: relative; */
+    display: flex;
+}
+.topbar ul li{
+    list-style: none;
+}
+
+.topnav ul li a{
+    /* display: inline-block; */
+    color:white;
+    font-weight: 400;
+    padding-left: 20px;
+    /* margin-left: 40px; */
+    text-decoration: none;
+}
+.content{
+    /* position:relative; */
+    width:100%;
+    display: grid;
+    /* grid-template-columns: 1fr  1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* display:flex; */
+    /* justify-content:space-between; */
+    align-items: center;
+}
+
+
+@media(max-width: 600px){
+    .content {
+      grid-template-rows: 1fr;
+    }
+  }
+
+.content .textbox{
+
+    padding: 100px;
+    /* display:flex; */
+    /* justify-content: center;  */
+
+}
+
+.content .textbox h1{
+    color:white;
+    font-size: 4em;
+    line-height:1.2em;
+    font-weight:500;
+}
+
+
+.content .textbox h1 span{
+    color: #FAEA4F;
+    font-size:1.2em;
+    font-weight: 900;
+}
+
+.content .textbox h4{
+    color:whitesmoke;
+
+}
+
+
+.imgBox  img{
+ width: 100%;
+ height: auto; 
+}
+
+
+
+.imgBox {
+    width: 70%;
+    /* height: auto;  */
+   }
+   
+
+
+/* light green  154, 205, 50      #9ACD32*/
+
+
+/* darkngreen   #2A7727   42, 119, 39 */

@@ -1,0 +1,41 @@
+.first{
+    display: none !important;
+}
+
+.second{
+    display: none !important;
+}
+
+.third{
+    display: none !important;
+}
+
+.forth{
+    display: none !important;
+}
+
+.las{
+    background: #28A745;
+    color: white;
+} 
+
+.mav{
+    background: #DDDDDD;
+    padding-bottom: 30px;
+    padding-top: 14px;
+}
+
+.sels{
+    margin-bottom: 42px;
+    font-size: 23px;
+}
+
+.fir{
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+
+.det{
+    margin: 0 !important;
+    background: none !important;
+}

@@ -1,0 +1,8 @@
+.home_admin{
+    flex: 4;
+}
+
+.homeWidgets_admin{
+    display: flex;
+    margin: 20px;
+}

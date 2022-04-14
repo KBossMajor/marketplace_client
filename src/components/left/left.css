@@ -1,0 +1,24 @@
+.left{
+    flex:1
+}
+
+.leftWrapper{
+    padding: 20px;
+}
+
+
+    @media only screen and (min-width: 800px) and (max-width: 991px){
+   
+        .left {
+        display:none;
+        }
+  
+    }
+
+    /* @media only screen and (min-width: 360px) and (max-width: 667px){ */
+        @media only screen and (min-width: 280px) and (max-width: 667px){
+   
+        .left{
+            display:none;
+        }
+    }

@@ -1,0 +1,28 @@
+.feed{
+    flex:5
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 991px){
+   
+    .feed{
+        flex:8
+    }
+  
+  }
+  
+  /* @media only screen and (min-width: 360px) and (max-width: 667px){ */
+    @media only screen and (min-width: 280px) and (max-width: 667px){
+
+    .feed{
+        flex:11;
+    }
+    
+    .feedWrapper{
+        padding: 0px;
+    }
+  
+  }

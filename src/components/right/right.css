@@ -1,0 +1,22 @@
+.right{
+    flex:1
+}
+
+.rightWrapper{
+    padding: 20px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 991px){
+   
+    .right{
+        display:none;
+    }
+  
+  }
+
+  /* @media only screen and (min-width: 360px) and (max-width: 667px){ */
+    @media only screen and (min-width: 280px) and (max-width: 667px){
+    .right{
+        display:none;
+    }
+  }

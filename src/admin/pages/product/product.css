@@ -1,0 +1,130 @@
+.product_admin {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleContainer_admin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton_admin {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productTop_admin {
+  display: flex;
+}
+
+.productTopLeft_admin,
+.productTopRight_admin {
+  flex: 1;
+}
+
+.productTopRight_admin {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInfoImg_admin {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productInfoTop_admin {
+  display: flex;
+  align-items: center;
+}
+
+.productName_admin {
+  font-weight: 600;
+}
+
+.productInfoBottom_admin {
+  margin-top: 10px;
+}
+
+.productInfoItem_admin {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productInfoValue_admin {
+  font-weight: 300;
+}
+
+.productBottom_admin {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productForm_admin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft_admin {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft_admin > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.productFormLeft_admin > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft_admin >select{
+  margin-bottom: 10px;
+}
+
+.productUploadImg_admin{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productFormRight_admin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload_admin{
+  display: flex;
+  align-items: center;
+}
+
+.productButton_admin{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
